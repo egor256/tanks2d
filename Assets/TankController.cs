@@ -57,7 +57,6 @@ public class TankController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log("tank enter:" + col.name);
         if (col.tag == "Health")
         {
             Repair(50);

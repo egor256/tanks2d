@@ -10,6 +10,7 @@ TagManager:
   - SpeedPickup
   - DamagePickup
   - Tank
+  - Portal
   layers:
   - Default
   - TransparentFX
