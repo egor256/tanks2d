@@ -10,13 +10,18 @@ public class ButtonHandler : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene("MenuScene");
+    }
+
     public void Help()
     {
-
+        SceneManager.LoadScene("HelpScene");
     }
 
     public void Exit()
     {
-
+        Application.Quit();
     }
 }
